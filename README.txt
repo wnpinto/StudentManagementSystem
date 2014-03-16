@@ -4,13 +4,13 @@
 
 
 *Project Description*
-This new system will keep track of all students’ 
+This new system will keep track of all studentsï¿½ 
 spending patterns or habits. The system will also 
 keep track of all purchases made by the student. 
-To keep track of the system, a “wallet” based 
+To keep track of the system, a ï¿½walletï¿½ based 
 approach will be used. The wallet will keep track 
 of budget limit, amount of money spent and amount 
-of money left. The wallet will also keep a “receipts” 
+of money left. The wallet will also keep a ï¿½receiptsï¿½ 
 section, which displays all the purchases made by 
 the student. Based on the receipts, the budget plan, 
 and the amount of money left and being spent, 
@@ -23,4 +23,6 @@ spending accordingly.
 ==============================================
 
 This is a project that is designed to help me, as I've noticed over the years that I spend too much money without realizing my budget.
-So, to help me visualize my spending habits, I should be able to watch my spending, therefore saving alot of money.
+So, this app will be to help me visualize my spending habits, therefore saving alot of money.
+
+Project: Android Application

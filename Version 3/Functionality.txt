@@ -1,0 +1,7 @@
+- Add new plan
+- Change existing plan settings
+- View all plans
+- View all all recent purchases
+- Add a new purchase
+- Draws Recent Purchases Graph
+- *new theme 

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/smm_bg1">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.78" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/setBudgetInitialView1"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="23dp"
+            android:text="SETTINGS"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <TextView
+            android:id="@+id/setWalletInitialView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="17dp"
+            android:text="@string/setWalletInitial"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <EditText
+            android:id="@+id/setWalletInitialEditText1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/setWalletInitialView1"
+            android:layout_centerHorizontal="true"
+            android:ems="10"
+            android:inputType="numberDecimal" />
+
+        <TextView
+            android:id="@+id/setBudgetInitialView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/setWalletInitialEditText1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="21dp"
+            android:text="Your Budget"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <EditText
+            android:id="@+id/setBudgetInitialEditText1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/setWalletInitialEditText1"
+            android:layout_below="@+id/setBudgetInitialView1"
+            android:ems="10"
+            android:inputType="numberDecimal" />
+
+        <Button
+            android:id="@+id/settingsOKbutton1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/settingsbackbutton1"
+            android:layout_alignBottom="@+id/settingsbackbutton1"
+            android:layout_alignRight="@+id/setWalletInitialView1"
+            android:text="OK" 
+            style="@style/btnStyleBlue" />
+
+        <Button
+            android:id="@+id/settingsbackbutton1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/setWalletInitialView1"
+            android:layout_below="@+id/setBudgetInitialEditText1"
+            android:layout_marginTop="22dp"
+            android:text="BACK" 
+            style="@style/btnStyleBlue" />
+        
+         <Button
+            android:id="@+id/addnewplanbutton1"
+            style="@style/btnStyleBlue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView2"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="28dp"
+            android:text="ADD NEW PLAN" />
+
+        <EditText
+            android:id="@+id/addnewplaneditText1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/addnewplanbutton1"
+            android:layout_alignLeft="@+id/setBudgetInitialEditText1"
+            android:ems="10"
+            android:hint="Budget Plan Name" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/addnewplaneditText1"
+            android:layout_centerHorizontal="true"
+            android:text="Add A New Plan"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+       
+
+    </RelativeLayout>
+
+</LinearLayout>

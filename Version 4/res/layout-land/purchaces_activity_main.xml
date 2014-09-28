@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="@drawable/smm_bg1">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="Manage Your Purchases"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Button
+        android:id="@+id/analysepurchasebutton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/recentpurchasebutton1"
+        android:layout_alignRight="@+id/recentpurchasebutton1"
+        android:layout_below="@+id/recentpurchasebutton1"
+        android:text="ANALYSE YOUR PURCHASES" 
+        style="@style/btnStyleBlue" />
+
+    <Button
+        android:id="@+id/backbutton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/priceEditText"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="23dp"
+        android:text="BACK" 
+        style="@style/btnStyleBlue" />
+
+    <Button
+        android:id="@+id/addapurchasebutton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/backbutton2"
+        android:layout_alignBottom="@+id/backbutton2"
+        android:layout_alignRight="@+id/priceEditText"
+        android:text="ADD PURCHASE" 
+        style="@style/btnStyleBlue" />
+
+    <Button
+        android:id="@+id/clearpurchasesbutton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/analysepurchasebutton1"
+        android:layout_alignRight="@+id/analysepurchasebutton1"
+        android:layout_below="@+id/analysepurchasebutton1"
+        android:text="CLEAR PURCHASES" 
+        style="@style/btnStyleBlue" />
+
+    <EditText
+        android:id="@+id/productEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/storeEditText"
+        android:layout_centerVertical="true"
+        android:ems="10"
+        android:hint="Product" />
+
+    <EditText
+        android:id="@+id/priceEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/backbutton2"
+        android:layout_alignLeft="@+id/productEditText"
+        android:ems="10"
+        android:hint="Price"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/storeEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/recentpurchasebutton1"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="36dp"
+        android:ems="10"
+        android:hint="Store"
+        android:inputType="textCapWords" >
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/recentpurchasebutton1"
+        style="@style/btnStyleBlue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/productEditText"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20dp"
+        android:text="CHECK RECENT PURCHASES" />
+
+</RelativeLayout>

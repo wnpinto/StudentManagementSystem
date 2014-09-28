@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Student Money Management</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="Wallet">0</string>
+    <string name="setWalletInitial">Starting Money in Wallet</string>
+    <string name="Budget">5</string>
+    <string name="back">Back</string>
+	<color name="red">#FF5500</color>
+</resources>

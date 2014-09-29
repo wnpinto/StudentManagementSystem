@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.1.6" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true">  
+  <class id="1" language="java" name="com.example.studentmoneymanagement.WalletSQLContract" 
+    project="StudentMoneyManagement" 
+    file="/StudentMoneyManagement/src/com/example/studentmoneymanagement/WalletSQLContract.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="261" width="240" x="1304" y="994"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="com.example.studentmoneymanagement.PlansActivity" project="StudentMoneyManagement" 
+    file="/StudentMoneyManagement/src/com/example/studentmoneymanagement/PlansActivity.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="135" width="208" x="264" y="284"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="com.example.studentmoneymanagement.MainActivity" project="StudentMoneyManagement" 
+    file="/StudentMoneyManagement/src/com/example/studentmoneymanagement/MainActivity.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="207" width="208" x="882" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="com.example.studentmoneymanagement.Wallet" project="StudentMoneyManagement" 
+    file="/StudentMoneyManagement/src/com/example/studentmoneymanagement/Wallet.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="369" width="196" x="1068" y="994"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="com.example.studentmoneymanagement.SettingsActivity" 
+    project="StudentMoneyManagement" 
+    file="/StudentMoneyManagement/src/com/example/studentmoneymanagement/SettingsActivity.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="225" width="208" x="1304" y="284"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="com.example.studentmoneymanagement.CheckPurchasesActivity" 
+    project="StudentMoneyManagement" 
+    file="/StudentMoneyManagement/src/com/example/studentmoneymanagement/CheckPurchasesActivity.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="117" width="183" x="41" y="284"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="7" language="java" name="com.example.studentmoneymanagement.RecentPurchacesActivity" 
+    project="StudentMoneyManagement" 
+    file="/StudentMoneyManagement/src/com/example/studentmoneymanagement/RecentPurchacesActivity.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="333" width="208" x="1056" y="284"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="8" language="java" name="com.example.studentmoneymanagement.WalletSQLDatasource" 
+    project="StudentMoneyManagement" 
+    file="/StudentMoneyManagement/src/com/example/studentmoneymanagement/WalletSQLDatasource.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="225" width="239" x="1304" y="729"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="9" language="java" name="com.example.studentmoneymanagement.RecentPurchacesSQLContract" 
+    project="StudentMoneyManagement" 
+    file="/StudentMoneyManagement/src/com/example/studentmoneymanagement/RecentPurchacesSQLContract.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="261" width="219" x="784" y="994"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="10" language="java" name="com.example.studentmoneymanagement.PurchasesAnalysis" 
+    project="StudentMoneyManagement" 
+    file="/StudentMoneyManagement/src/com/example/studentmoneymanagement/PurchasesAnalysis.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="405" width="256" x="512" y="284"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="11" language="java" name="com.example.studentmoneymanagement.AnalysePurchasesActivity" 
+    project="StudentMoneyManagement" 
+    file="/StudentMoneyManagement/src/com/example/studentmoneymanagement/AnalysePurchasesActivity.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="189" width="208" x="808" y="284"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="12" language="java" name="com.example.studentmoneymanagement.RecentPurchacesSQLDatasource" 
+    project="StudentMoneyManagement" 
+    file="/StudentMoneyManagement/src/com/example/studentmoneymanagement/RecentPurchacesSQLDatasource.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="225" width="278" x="784" y="729"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <generalization id="13">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="3"/>  
+  </generalization>  
+  <generalization id="14">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="3"/>  
+  </generalization>  
+  <generalization id="15">    
+    <end type="SOURCE" refId="11"/>    
+    <end type="TARGET" refId="3"/>  
+  </generalization>  
+  <association id="16">    
+    <end type="SOURCE" refId="5" navigable="false">      
+      <attribute id="17" name="walletDatasource"/>      
+      <multiplicity id="18" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="8" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="19">    
+    <end type="SOURCE" refId="7" navigable="false">      
+      <attribute id="20" name="purchasesDatasource"/>      
+      <multiplicity id="21" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="12" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="22">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="3"/>  
+  </generalization>  
+  <association id="23">    
+    <end type="SOURCE" refId="8" navigable="false">      
+      <attribute id="24" name="walletdbHelper"/>      
+      <multiplicity id="25" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="1" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="26">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="3"/>  
+  </generalization>  
+  <association id="27">    
+    <end type="SOURCE" refId="7" navigable="false">      
+      <attribute id="28" name="walletDatasource"/>      
+      <multiplicity id="29" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="8" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="30">    
+    <end type="SOURCE" refId="8" navigable="false">      
+      <attribute id="31" name="myWallet"/>      
+      <multiplicity id="32" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="4" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="33">    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="3"/>  
+  </generalization>  
+  <association id="34">    
+    <end type="SOURCE" refId="10" navigable="false">      
+      <attribute id="35" name="rpDatasource"/>      
+      <multiplicity id="36" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="12" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="37">    
+    <bendpoint x="1542" y="284"/>    
+    <end type="SOURCE" refId="3" navigable="false">      
+      <attribute id="38" name="walletDatasource"/>      
+      <multiplicity id="39" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="8" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="40">    
+    <end type="SOURCE" refId="12" navigable="false">      
+      <attribute id="41" name="recentPurchacesHelper"/>      
+      <multiplicity id="42" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="9" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>

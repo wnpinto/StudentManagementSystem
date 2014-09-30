@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res/com.example.studentmoneymanagement"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"  
+            android:background="@drawable/smm_bg1">
+
+    <com.example.studentmoneymanagement.AnalysePurchasesCustomView
+        android:id="@+id/analysePurchasesCustomView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:padding="16dp" />
+
+    <com.example.studentmoneymanagement.AnalysePurchasesCustomViewPie
+        android:id="@+id/analysePurchasesCustomViewPie1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@+id/analysePurchasesCustomView1"
+        android:padding="16dp" />
+
+</RelativeLayout>

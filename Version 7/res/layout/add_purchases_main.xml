@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <Button
+            android:id="@+id/addnewpurchasebutton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add New Purchase"
+            style="@style/btnStyleBlue"  />
+
+        <Button
+            android:id="@+id/backbutton3"
+            android:layout_width="127dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:text="Back" />
+
+        <EditText
+            android:id="@+id/dateeditText1"
+            android:layout_width="134dp"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/backbutton3"
+            android:layout_below="@+id/addnewpurchasebutton"
+            android:layout_marginTop="23dp"
+            android:ems="10"
+            android:inputType="date"
+            android:text="Date" />
+
+        <EditText
+            android:id="@+id/costeditText3"
+            android:layout_width="135dp"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@+id/backbutton3"
+            android:layout_below="@+id/itemeditText2"
+            android:layout_marginTop="34dp"
+            android:ems="10"
+            android:inputType="numberDecimal"
+            android:text="Cost" />
+
+        <EditText
+            android:id="@+id/itemeditText2"
+            android:layout_width="288dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/dateeditText1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="27dp"
+            android:ems="10"
+            android:text="Item Purchased" android:inputType=""/>
+
+        <include
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/costeditText3"
+            layout="@layout/analyse_purchases_main2" />
+
+    </RelativeLayout>
+
+        <requestFocus
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+</LinearLayout>
